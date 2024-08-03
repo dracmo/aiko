@@ -1,221 +1,261 @@
 <!DOCTYPE html>
 <html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NicoNico cafe</title>
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NicoNico cafe</title>
-  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
 
-  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
-  <link rel="stylesheet" href="css/style.css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Imprima&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- google font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Imprima&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap"
+      rel="stylesheet"
+    />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/9-3.css" />
+    <link rel="stylesheet" type="text/css" href="css/8-1-8.css" />
+  </head>
 
-  <link rel="stylesheet" type="text/css" href="css/9-3.css">
-  <link rel="stylesheet" type="text/css" href="css/8-1-8.css">
-</head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>
+          <a href="#" class="logo"
+            ><img src="img/niconicocafe.logo.png" alt=""
+          /></a>
+        </h1>
 
-<body>
+        <nav id="navi">
+          <ul class="nav-menu">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#menu">MENU</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+            <li>
+              <a href="https://www.instagram.com">
+                <img src="img/Instagram_Glyph_Black.png" />
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
 
-  <header>
-    <div class="container">
-      <h1><a href="#" class="logo"><img src="img/niconicocafe.logo.png" alt=""></a></h1>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
 
-      <nav id="navi">
-        <ul class="nav-menu">
-          <li><a href="#home">HOME</a></li>
-          <li><a href="#about">ABOUT</a></li>
-          <li><a href="#menu">MENU</a></li>
-          <li><a href="#contact">CONTACT</a></li>
-          <li><a href="https://www.instagram.com">
-              <img src="img/Instagram_Glyph_Black.png">
-            </a></li>
+      <div id="mask"></div>
+    </header>
+
+    <main>
+      <div class="mainvisual">
+        <img src="img/AdobeStock_275566349.jpeg" alt="main-visual" />
+      </div>
+
+      <div class="site-title">
+        <h2>-niconicocafe-</h2>
+      </div>
+
+      <div class="cafe-icon">
+        <img src="img/niconicocafe.logo.w.png" alt="logo" />
+      </div>
+
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        preserveAspectRatio="none"
+        viewBox="0 0 1440 320"
+      >
+        <path
+          fill="#ECE4D8"
+          fill-opacity="1"
+          d="M0,0L80,32C160,64,320,128,480,133.3C640,139,800,85,960,69.3C1120,53,1280,75,1360,85.3L1440,96L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
+        ></path>
+      </svg>
+
+      <section id="about" class="about-container">
+        <h2 class="section-title">ABOUT</h2>
+        <div class="fifter"></div>
+        <div class="text">
+          <div class="beans">
+            <div class="espresso">
+              <p>
+                nico nico
+                cafeは、その名の通りスタッフもお客様もニコニコ笑顔で過ごせる空間をイメージしたカフェです。<br />
+                このカフェでは、訪れるお客様一人ひとりに日常の中で小さな幸せを感じていただける空間を提供します。<br />
+                最高品質のコーヒーと手作りのフードを通じて、五感を満たし、心地よいひとときをお過ごしいただける場所です。
+              </p>
+            </div>
+          </div>
+          <p class="text2">
+            nico nico cafeでは、厳選されたシングルオリジンのコーヒー豆を使用し、
+            プロのバリスタが一杯一杯丁寧に淹れるコーヒーを提供します。<br />
+            定番のエスプレッソやカフェラテに加え、季節ごとに変わるスペシャルブレンドや、
+            フレンチプレス、ハンドドリップなど、多彩な抽出方法を楽しんでいただけます。<br />
+            さらに、コーヒーに合う自家製のシロップやスパイスを使ったオリジナルのアレンジコーヒーもご用意しています。
+          </p>
+
+          <div class="fifter">
+            <div class="macchinetta">
+              <p class="text3">
+                カフェのフードメニューは、全て手作りで、新鮮な地元の食材を使用しています。<br />
+                朝食には、焼きたてのクロワッサンや自家製ジャムを添えたトーストなど、フランス風の軽食を提供します。<br />
+                ランチには、キッシュやタルティーヌ、新鮮なサラダを中心としたメニューをご用意。<br />
+                デザートには、季節のフルーツを使ったタルトやエクレア、
+                クレームブリュレなど、フランスの伝統的なスイーツをお楽しみいただけます。kiki
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <svg
+        class="wave1"
+        xmlns="http://www.w3.org/2000/svg"
+        preserveAspectRatio="none"
+        viewBox="0 0 1440 320"
+      >
+        <path
+          fill="#ECE4D8"
+          fill-opacity="1"
+          d="M0,160L60,170.7C120,181,240,203,360,192C480,181,600,139,720,128C840,117,960,139,1080,160C1200,181,1320,203,1380,213.3L1440,224L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z "
+        ></path>
+      </svg>
+
+      <section id="menu" class="menu-container">
+        <h2 class="section-title">MENU</h2>
+        <ul class="slider">
+          <li><img src="img/drink1.png" /></li>
+          <li><img src="img/drink2.png" /></li>
+          <li><img src="img/drink3.png" /></li>
+          <li><img src="img/food_pasta.png" /></li>
+          <li><img src="img/food_pizza.png" /></li>
+          <li><img src="img/food_steak.png" /></li>
+          <li><img src="img/food_sandwitch.png" /></li>
+          <li><img src="img/food_stew.png" /></li>
+          <li><img src="img/dessert1.png" /></li>
+          <li><img src="img/dessert2.png" /></li>
+          <li><img src="img/dessert3.png" /></li>
+          <li><img src="img/dessert4.png" /></li>
+          <li><img src="img/pie.png" /></li>
         </ul>
-      </nav>
-    </div>
+      </section>
 
-    <div class="hamburger">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
-
-
-    <div id="mask"></div>
-  </header>
-
-  <main>
-
-    <div class="mainvisual">
-      <img src="img/AdobeStock_275566349.jpeg" alt="main-visual">
-    </div>
-
-    <div class="site-title">
-      <h2>-niconicocafe-</h2>
-    </div>
-
-    <div class="cafe-icon">
-      <img src="img/niconicocafe.logo.w.png" alt="logo">
-    </div>
-
-    <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 1440 320">
-      <path fill="#ECE4D8" fill-opacity="1"
-        d="M0,0L80,32C160,64,320,128,480,133.3C640,139,800,85,960,69.3C1120,53,1280,75,1360,85.3L1440,96L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">
-      </path>
-    </svg>
-
-    <section id="about" class="about-container">
-      <h2 class="section-title">ABOUT</h2>
-      <div class="fifter"></div>
-      <div class="text">
-        <div class="beans">
-          <div class="espresso">
-            <p>nico nico cafeは、その名の通りスタッフもお客様もニコニコ笑顔で過ごせる空間をイメージしたカフェです。<br>
-              このカフェでは、訪れるお客様一人ひとりに日常の中で小さな幸せを感じていただける空間を提供します。<br>
-              最高品質のコーヒーと手作りのフードを通じて、五感を満たし、心地よいひとときをお過ごしいただける場所です。</p>
-          </div>
+      <section id="access" class="access-container">
+        <h2 class="section-title">ACCESS</h2>
+        <div class="access-logo">
+          <img src="img/niconicocafe.logo.png" alt="" />
         </div>
-        <p class="text2">
-          nico nico cafeでは、厳選されたシングルオリジンのコーヒー豆を使用し、
-          プロのバリスタが一杯一杯丁寧に淹れるコーヒーを提供します。<br>
-          定番のエスプレッソやカフェラテに加え、季節ごとに変わるスペシャルブレンドや、
-          フレンチプレス、ハンドドリップなど、多彩な抽出方法を楽しんでいただけます。<br>
-          さらに、コーヒーに合う自家製のシロップやスパイスを使ったオリジナルのアレンジコーヒーもご用意しています。</p>
+        <p class="company-name">niconicocafe</p>
+        <div class="steps"></div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7183.13561292107!2d139.7134908617532!3d35.678230151980685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c911bbf9625%3A0x8fb732c3c363d4dd!2s1%20Kasumigaokamachi%2C%20Shinjuku%20City%2C%20Tokyo%20160-0013%2C%20Japon!5e0!3m2!1sfr!2sfr!4v1721483502250!5m2!1sfr!2sfr"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
 
-        <div class="fifter">
-          <div class="macchinetta">
-            <p class="text3">
-              カフェのフードメニューは、全て手作りで、新鮮な地元の食材を使用しています。<br>
-              朝食には、焼きたてのクロワッサンや自家製ジャムを添えたトーストなど、フランス風の軽食を提供します。<br>
-              ランチには、キッシュやタルティーヌ、新鮮なサラダを中心としたメニューをご用意。<br>
-              デザートには、季節のフルーツを使ったタルトやエクレア、
-              クレームブリュレなど、フランスの伝統的なスイーツをお楽しみいただけます。
-            </p>
-          </div>
+        <div class="adress">
+          <p>
+            X-XX-XX, Nishiwaseda, Shinjyuku-ku, Tokyo 160-0000<br />
+            東京都新宿区霞岳町X-XX-XX
+          </p>
+          <p>
+            Open 5days a Week<br />
+            7:00am to 17:00pm
+          </p>
+          <p>Tel : XX-XXXX-XXXX</p>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <svg class="wave1" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 1440 320">
-      <path fill="#ECE4D8" fill-opacity="1"
-        d="M0,160L60,170.7C120,181,240,203,360,192C480,181,600,139,720,128C840,117,960,139,1080,160C1200,181,1320,203,1380,213.3L1440,224L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z ">
-      </path>
-    </svg>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        preserveAspectRatio="none"
+        viewBox="0 0 1440 320"
+      >
+        <path
+          fill="#ECE4D8"
+          fill-opacity="1"
+          d="M0,0L80,32C160,64,320,128,480,133.3C640,139,800,85,960,69.3C1120,53,1280,75,1360,85.3L1440,96L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
+        ></path>
+      </svg>
 
-    <section id="menu" class="menu-container">
-      <h2 class="section-title">MENU</h2>
-      <ul class="slider">
-        <li><img src="img/drink1.png"></li>
-        <li><img src="img/drink2.png"></li>
-        <li><img src="img/drink3.png"></li>
-        <li><img src="img/food_pasta.png"></li>
-        <li><img src="img/food_pizza.png"></li>
-        <li><img src="img/food_steak.png"></li>
-        <li><img src="img/food_sandwitch.png"></li>
-        <li><img src="img/food_stew.png"></li>
-        <li><img src="img/dessert1.png"></li>
-        <li><img src="img/dessert2.png"></li>
-        <li><img src="img/dessert3.png"></li>
-        <li><img src="img/dessert4.png"></li>
-        <li><img src="img/pie.png"></li>
-      </ul>
-    </section>
+      <section id="contact" class="contact-container">
+        <h2 class="section-title">CONTACT</h2>
+        <div class="background fifter"></div>
+        <div class="contact-form">
+          <form action="#" method="post">
+            <dl>
+              <dt><label for="name">NAME</label></dt>
+              <dd><input type="text" id="name" name="your-name" /></dd>
+              <dt><label for="email">E-mail</label></dt>
+              <dd><input type="email" id="email" name="your-email" /></dd>
+              <dt><label for="message">MESSAGE</label></dt>
+              <dd><textarea id="message" name="your-message"></textarea></dd>
+            </dl>
+            <div class="submit-btn">
+              <input type="submit" value="送信" />
+            </div>
+          </form>
+        </div>
+      </section>
 
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        preserveAspectRatio="none"
+        viewBox="0 0 1440 320"
+      >
+        <path
+          fill="#ECE4D8"
+          fill-opacity="1"
+          d="M0,160L60,170.7C120,181,240,203,360,192C480,181,600,139,720,128C840,117,960,139,1080,160C1200,181,1320,203,1380,213.3L1440,224L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z "
+        ></path>
+      </svg>
 
-
-
-    <section id="access" class="access-container">
-      <h2 class="section-title">ACCESS</h2>
-      <div class="access-logo">
-        <img src="img/niconicocafe.logo.png" alt="">
-      </div>
-      <p class="company-name">niconicocafe</p>
-      <div class="steps"></div>
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7183.13561292107!2d139.7134908617532!3d35.678230151980685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c911bbf9625%3A0x8fb732c3c363d4dd!2s1%20Kasumigaokamachi%2C%20Shinjuku%20City%2C%20Tokyo%20160-0013%2C%20Japon!5e0!3m2!1sfr!2sfr!4v1721483502250!5m2!1sfr!2sfr"
-        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-      <div class="adress">
-        <p>
-          X-XX-XX, Nishiwaseda, Shinjyuku-ku, Tokyo 160-0000<br>
-          東京都新宿区霞岳町X-XX-XX
+      <footer>
+        <p id="page-top">
+          <a href="#"><span>page top</span></a>
         </p>
-        <p>
-          Open 5days a Week<br>
-          7:00am to 17:00pm
-        </p>
-        <p>Tel : XX-XXXX-XXXX</p>
-      </div>
-    </section>
+        <p class="copyright">©︎ 2024 niconicocafe.</p>
+      </footer>
+    </main>
 
-    <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 1440 320">
-      <path fill="#ECE4D8" fill-opacity="1"
-        d="M0,0L80,32C160,64,320,128,480,133.3C640,139,800,85,960,69.3C1120,53,1280,75,1360,85.3L1440,96L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">
-      </path>
-    </svg>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-1-6/js/6-1-6.js"></script>
 
-    <section id="contact" class="contact-container">
-      <h2 class="section-title">CONTACT</h2>
-      <div class="background fifter"></div>
-      <div class="contact-form">
-        <form action="#" method="post">
-          <dl>
-            <dt><label for="name">NAME</label></dt>
-            <dd><input type="text" id="name" name="your-name"></dd>
-            <dt><label for="email">E-mail</label></dt>
-            <dd><input type="email" id="email" name="your-email"></dd>
-            <dt><label for="message">MESSAGE</label></dt>
-            <dd><textarea id="message" name="your-message"></textarea></dd>
-          </dl>
-          <div class="submit-btn">
-            <input type="submit" value="送信">
-          </div>
-        </form>
-      </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-    </section>
-
-    <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 1440 320">
-      <path fill="#ECE4D8" fill-opacity="1"
-        d="M0,160L60,170.7C120,181,240,203,360,192C480,181,600,139,720,128C840,117,960,139,1080,160C1200,181,1320,203,1380,213.3L1440,224L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z ">
-      </path>
-    </svg>
-
-
-    <footer>
-      <p id="page-top"><a href="#"><span>page top</span></a></p>
-      <p class="copyright"> ©︎ 2024 niconicocafe.</p>
-    </footer>
-
-
-  </main>
-
-
-
-
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-  <script src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-1-6/js/6-1-6.js"></script>
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <!--自作のJS-->
-  <script src="menu.js"></script>
-
-</body>
-
-
-
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <!--自作のJS-->
+    <script src="menu.js"></script>
+  </body>
 </html>
