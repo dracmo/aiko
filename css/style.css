@@ -21,14 +21,12 @@ li {
 
 a {
   text-decoration: none;
-  color: #000
+  color: #000;
 }
 
 svg {
   vertical-align: bottom;
 }
-
-
 
 header .logo img {
   width: 120px;
@@ -53,7 +51,6 @@ header .container {
 header ul img {
   width: 25px;
 }
-
 
 header ul {
   display: flex;
@@ -109,7 +106,7 @@ main {
 }
 
 .about-container {
-  background-color: #ECE4D8;
+  background-color: #ece4d8;
   position: relative;
   height: auto;
 }
@@ -133,7 +130,6 @@ main {
   padding: 70px 0;
 }
 
-
 .text {
   text-align: center;
   line-height: 2;
@@ -150,7 +146,6 @@ main {
   padding-top: 30px;
 }
 
-
 .fifter {
   background-image: url(/img/cafe-02.png);
   background-position: left top;
@@ -161,7 +156,6 @@ main {
   background-image: url(/img/cafe-04.png);
   background-position: right bottom;
   background-size: 200px;
-
 }
 
 .espresso {
@@ -197,7 +191,6 @@ main {
     background-position: -700px 700px;
   }
 }
-
 
 .slider {
   /*横幅94%で左右に余白を持たせて中央寄せ*/
@@ -260,7 +253,7 @@ main {
 }
 
 .slick-dots li {
- display: inline-block; 
+  display: inline-block;
   margin: 0 5px;
 }
 
@@ -282,16 +275,11 @@ main {
   /*ドットボタンの現在地表示の色*/
 }
 
-
 .company-name {
   letter-spacing: 0.3rem;
 }
 
-
-
 /*========= レイアウトのためのCSS ===============*/
-
-
 
 h2,
 p {
@@ -305,12 +293,10 @@ ul {
   list-style: none;
 }
 
-
 a:hover,
 a:active {
   text-decoration: none;
 }
-
 
 .access-logo {
   text-align: center;
@@ -327,10 +313,7 @@ a:active {
 .access-container {
   padding-bottom: 30px;
   position: relative;
-
 }
-
-
 
 iframe {
   width: 100%;
@@ -370,16 +353,14 @@ iframe {
   }
 }
 
-
 .contact-container {
-  background-color: #ECE4D8;
+  background-color: #ece4d8;
   height: 100vh;
 }
 
 .contact-form {
   margin: 0 70px;
 }
-
 
 #contact dl {
   display: flex;
@@ -399,7 +380,6 @@ iframe {
   padding: 10px;
   height: 160px;
 }
-
 
 #contact dt {
   width: 20%;
@@ -427,8 +407,6 @@ iframe {
   background: #fff;
   color: #7b5544;
 }
-
-
 
 #page-top {
   position: fixed;
@@ -475,7 +453,7 @@ iframe {
 }
 
 /*画像の切り替えと動き*/
-#page-top a {
+#page-top button {
   /*aタグの形状*/
   display: block;
   width: 100px;
@@ -490,7 +468,7 @@ iframe {
   background-size: contain;
 }
 
-#page-top.floatAnime a {
+#page-top.floatAnime button {
   width: 100px;
   height: 130px;
   /*背景画像の指定*/
@@ -513,7 +491,7 @@ iframe {
   }
 
   50% {
-    transform: translateX(0)
+    transform: translateX(0);
   }
 
   100% {
@@ -529,7 +507,6 @@ iframe {
   right: 39px;
   color: #7b5544;
 }
-
 
 .copyright {
   font-size: 0.6rem;
@@ -550,7 +527,7 @@ iframe {
 
   #navi {
     width: 100%;
-    background: #ECE4D8;
+    background: #ece4d8;
     padding: 25px;
     position: fixed;
     top: 0;
@@ -559,8 +536,14 @@ iframe {
     overflow-y: auto;
     transition: 0.5s;
     z-index: 20;
+    display: none;
   }
-
+  .navigation {
+    display: block;
+  }
+  #navi.active {
+    display: block;
+  }
   .open #navi {
     left: 0;
     opacity: 1;
@@ -584,7 +567,6 @@ iframe {
     right: 18px;
     transition: 0.5s;
     z-index: 20;
-    
   }
 
   .hamburger span {
@@ -644,8 +626,6 @@ iframe {
     z-index: 10;
   }
 
-
-
   .site-title {
     display: none;
   }
@@ -658,8 +638,6 @@ iframe {
     position: absolute;
     top: 50%;
   }
-
-
 
   .about-container {
     height: auto;
@@ -709,9 +687,8 @@ iframe {
     left: 10%;
   }
 
-    #contact dl {
-      flex-direction: column;
-      margin-left: 50px;
-    }
-
+  #contact dl {
+    flex-direction: column;
+    margin-left: 50px;
   }
+}
