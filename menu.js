@@ -10,15 +10,15 @@ $(function () {
     $("header").removeClass("open");
   });
 
-  $("#navi a").on("click", function () {
+  $("#navi a").on("open", function () {
     $("header").removeClass("open");
   });
 
   $(window).scroll(function () {
     $(".steps").each(function () {
-      var scroll = $(window).scrollTop();
-      var target = $(this).offset().top;
-      var windowHeight = $(window).height();
+      const scroll = $(window).scrollTop();
+      const target = $(this).offset().top;
+      const windowHeight = $(window).height();
 
       if (scroll > target - windowHeight + $(this).outerHeight()) {
         $(this).addClass("stepsline_animation");
@@ -28,7 +28,7 @@ $(function () {
 });
 
 function PageTopAnime() {
-  var scroll = $(window).scrollTop();
+  const scroll = $(window).scrollTop();
   if (scroll >= 100) {
     //上から100pxスクロールしたら
     $("#page-top").removeClass("DownMove"); //#page-topについているDownMoveというクラス名を除く
@@ -53,7 +53,7 @@ $(window).on("load", function () {
 });
 
 // #page-topをクリックした際の設定
-$("#page-top").click(function () {
+const pageTop = $("#page-top").click(function () {
   const scroll = $(window).scrollTop(); //スクロール値を取得
   if (scroll > 0) {
     $(this).addClass("floatAnime"); //クリックしたらfloatAnimeというクラス名が付与
@@ -61,11 +61,7 @@ $("#page-top").click(function () {
       {
         scrollTop: 0,
       },
-      2000,
-      function () {
-        //スクロールの速さ。数字が大きくなるほど遅くなる
-        $("#page-top").removeClass("floatAnisme"); //上までスクロールしたらfloatAnimeというクラス名を除く
-      }
+      2000
     );
   }
   return false; //リンク自体の無効化
