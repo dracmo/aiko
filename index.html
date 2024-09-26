@@ -14,6 +14,12 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/stylePhone.css" />
 
+    <link rel="stylesheet" href="css/swiper.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
     <!-- google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -139,8 +145,8 @@
         ></path>
       </svg>
 
-      <section id="menu" class="menu-container">
-        <h2 class="section-title">MENU</h2>
+      <!-- <section id="menu" class="menu-container">
+        
         <ul class="slider">
           <li><img src="img/drink1.png" /></li>
           <li><img src="img/drink2.png" /></li>
@@ -156,8 +162,27 @@
           <li><img src="img/dessert4.png" /></li>
           <li><img src="img/pie.png" /></li>
         </ul>
-      </section>
-
+      </section> -->
+      <div class="swiper mySwiper">
+        <h2 class="section-title">MENU</h2>
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="img/drink1.png" /></div>
+          <div class="swiper-slide"><img src="img/drink2.png" /></div>
+          <div class="swiper-slide"><img src="img/drink3.png" /></div>
+          <div class="swiper-slide"><img src="img/food_pasta.png" /></div>
+          <div class="swiper-slide"><img src="img/food_pizza.png" /></div>
+          <div class="swiper-slide"><img src="img/food_steak.png" /></div>
+          <div class="swiper-slide"><img src="img/food_sandwitch.png" /></div>
+          <div class="swiper-slide"><img src="img/food_stew.png" /></div>
+          <div class="swiper-slide"><img src="img/dessert1.png" /></div>
+          <div class="swiper-slide"><img src="img/dessert2.png" /></div>
+          <div class="swiper-slide"><img src="img/dessert3.png" /></div>
+          <div class="swiper-slide"><img src="img/dessert4.png" /></div>
+          <div class="swiper-slide"><img src="img/pie.png" /></div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
       <section id="access" class="access-container">
         <h2 class="section-title">ACCESS</h2>
         <div class="access-logo">
@@ -257,6 +282,18 @@
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
       crossorigin="anonymous"
     ></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
     <!--自作のJS-->
     <script src="menu.js"></script>
   </body>
