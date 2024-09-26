@@ -25,3 +25,12 @@
   width: 20%;
   margin: auto;
 }
+@media screen and (max-width: 768px) {
+  .swiper-slide img {
+    width: 50%;
+  }
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none !important;
+  }
+}
